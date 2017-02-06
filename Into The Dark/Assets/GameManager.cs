@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour {
             dis.Activate();
         }
 
+        RenderSettings.ambientIntensity = 0; 
        
 	}
 	

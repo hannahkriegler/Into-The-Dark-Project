@@ -16,7 +16,7 @@ public class ViveLaserPointer : MonoBehaviour {
 
     
     public Color color;
-    public float thickness = 0.002f;
+    public float thickness = 5000.0f;
     public AxisType facingAxis = AxisType.XAxis;
     public float length = 100f;
     public bool showCursor = true;
@@ -47,13 +47,12 @@ public class ViveLaserPointer : MonoBehaviour {
         {
             GameObject go = hitObject.transform.gameObject;
             Debug.Log(go.tag);
-            if (go.tag == "Susu")
+            if (go.tag == "SusuKamin")
             {
                 susuBehaviour susu = go.GetComponent<susuBehaviour>();
                 susu.anleuchten(number);
-                
-                    
             }
+           
             Debug.Log("getroffen: " + hitObject.transform.gameObject.name);
         }
     }

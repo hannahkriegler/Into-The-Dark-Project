@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Into The Dark.Plugins", "Into The Dark.Plugins.csproj", "{8B2B20E0-D3E1-1B3F-49B0-07BE7430CCBF}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Into The Dark", "Into The Dark.csproj", "{62A179D8-4375-6216-404C-86D4105A21C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Into The Dark.Editor.Plugins", "Into The Dark.Editor.Plugins.csproj", "{A37ED543-C395-8B68-A59D-3660EB172668}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Into The Dark.Editor", "Into The Dark.Editor.csproj", "{9F14524E-19E7-D4B0-E07E-6D6F9A720CD1}"
 EndProject
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B2B20E0-D3E1-1B3F-49B0-07BE7430CCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2B20E0-D3E1-1B3F-49B0-07BE7430CCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2B20E0-D3E1-1B3F-49B0-07BE7430CCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2B20E0-D3E1-1B3F-49B0-07BE7430CCBF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{62A179D8-4375-6216-404C-86D4105A21C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{62A179D8-4375-6216-404C-86D4105A21C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A179D8-4375-6216-404C-86D4105A21C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A179D8-4375-6216-404C-86D4105A21C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37ED543-C395-8B68-A59D-3660EB172668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37ED543-C395-8B68-A59D-3660EB172668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37ED543-C395-8B68-A59D-3660EB172668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37ED543-C395-8B68-A59D-3660EB172668}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9F14524E-19E7-D4B0-E07E-6D6F9A720CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9F14524E-19E7-D4B0-E07E-6D6F9A720CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F14524E-19E7-D4B0-E07E-6D6F9A720CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU

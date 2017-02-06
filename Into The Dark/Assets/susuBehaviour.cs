@@ -9,10 +9,12 @@ public class susuBehaviour : MonoBehaviour {
     public bool player1 = false;
     public bool player2 = false;
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
         anim = this.GetComponent<Animator>();
         gameManager = this.GetComponent<GameManager>();
+       
 	}
 	
 	// Update is called once per frame
@@ -40,6 +42,7 @@ public class susuBehaviour : MonoBehaviour {
 
     public void vergluehen()
     {
+
         anim.SetTrigger("vergluehen");
     }
 
